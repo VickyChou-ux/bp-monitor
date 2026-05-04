@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>員工血壓監測報名系統</title>
+    <style>
+        :root { --primary-color: #e74c3c; --bg-color: #f8f9fa; }
+        body { font-family: "Microsoft JhengHei", sans-serif; background-color: var(--bg-color); display: flex; justify-content: center; padding: 20px; }
+        .container { background: white; max-width: 500px; width: 100%; padding: 30px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        h1 { color: var(--primary-color); text-align: center; font-size: 24px; }
+        .info-box { background: #fff5f5; border: 1px solid #ffcfcf; padding: 15px; border-radius: 8px; margin-bottom: 25px; font-size: 14px; color: #444; }
+        .btn { display: block; background: var(--primary-color); color: white; text-align: center; padding: 15px; border-radius: 8px; text-decoration: none; font-weight: bold; margin-bottom: 15px; transition: 0.3s; }
+        .btn:hover { background: #c0392b; }
+        .btn-secondary { background: #3498db; }
+        .btn-secondary:hover { background: #2980b9; }
+        .footer { text-align: center; font-size: 12px; color: #888; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💓 血壓健康監測報名</h1>
+        <div class="info-box">
+            <strong>📋 活動須知：</strong><br>
+            • 每員工編號最多報名 2 人。<br>
+            • 可為：1員工+1家眷 或 2位家眷。<br>
+            • <strong>家眷須年滿 20 歲。</strong><br>
+            • 每週需回傳 1 張紀錄截圖 (內含2次數據)。
+        </div>
+
+        <a href="你的報名表單連結" class="btn">👉 立即線上報名</a>
+        
+        <a href="你的照片回傳連結" class="btn btn-secondary">📸 每週紀錄回傳</a>
+
+        <div class="footer">
+            © 2026 企業健康管理小組
+        </div>
+    </div>
+</body>
+</html>
